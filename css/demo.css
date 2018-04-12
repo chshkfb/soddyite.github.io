@@ -20,7 +20,9 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
 /* Color schemes */
+
 .demo-1 {
 	--color-text: #fff;
 	--color-bg: #000;
@@ -32,11 +34,11 @@ body {
 
 .demo-2 {
 	--color-text: #fff;
-    --color-bg: #000;
-    --color-link: #9cf9db;
-    --color-link-hover: #fff;
-    --color-info: #f3a145;
-    --color-nav: #fff;
+	--color-bg: #000;
+	--color-link: #9cf9db;
+	--color-link-hover: #fff;
+	--color-info: #f3a145;
+	--color-nav: #fff;
 }
 
 .demo-3 {
@@ -50,33 +52,37 @@ body {
 
 .demo-4 {
 	--color-text: #81838c;
-    --color-bg: #000;
-    --color-link: #96e23e;
-    --color-link-hover: #fff;
-    --color-info: #ea7836;
-    --color-nav: #fff;
+	--color-bg: #000;
+	--color-link: #96e23e;
+	--color-link-hover: #fff;
+	--color-info: #ea7836;
+	--color-nav: #fff;
 }
 
 .demo-5 {
-    --color-text: #fff;
-    --color-bg: #000;
-    --color-link: #fff;
-    --color-link-hover: #2a3cbb;
-    --color-info: #f7fb40;
-    --color-nav: #fff;
+	--color-text: #fff;
+	--color-bg: #000;
+	--color-link: #fff;
+	--color-link-hover: #2a3cbb;
+	--color-info: #f7fb40;
+	--color-nav: #fff;
 }
 
+
 /* Fade effect */
+
 .js body {
 	opacity: 0;
-	transition: opacity 0.3s;		
+	transition: opacity 0.3s;
 }
 
 .js body.render {
 	opacity: 1;
 }
 
+
 /* Page Loader */
+
 .js .loading::before {
 	content: '';
 	position: fixed;
@@ -107,7 +113,7 @@ body {
 @keyframes loaderAnim {
 	to {
 		opacity: 1;
-		transform: scale3d(0.5,0.5,1);
+		transform: scale3d(0.5, 0.5, 1);
 	}
 }
 
@@ -143,7 +149,9 @@ a:focus {
 	z-index: 100;
 }
 
+
 /* Icons */
+
 .icon {
 	display: block;
 	width: 1.5em;
@@ -180,16 +188,16 @@ main {
 	pointer-events: none;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: auto auto 4em;
-	grid-template-areas: 'header ...'
-	'... ...'
-	'github demos';
+	grid-template-areas: 'header ...' '... ...' 'github demos';
 }
 
 .content--fixed a {
 	pointer-events: auto;
 }
 
+
 /* Header */
+
 .codrops-header {
 	position: relative;
 	z-index: 100;
@@ -250,7 +258,9 @@ a.demo--current {
 	pointer-events: none;
 }
 
+
 /* Top Navigation Style */
+
 .codrops-links {
 	position: relative;
 	display: flex;

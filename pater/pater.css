@@ -81,7 +81,7 @@
 		transition: transform 0.5s;
 	}
 	.pater:hover .pater__img {
-		transform: translate3d(0,-10px,0);
+		transform: translate3d(0, -10px, 0);
 	}
 	.pater::before {
 		display: block;
