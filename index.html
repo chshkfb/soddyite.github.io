@@ -67,7 +67,7 @@
 						<img src="img/3.jpg" class="slide-item__image">
 					</div>
 				</div>
-				<button class="scene-nav scene-nav--prev" data-nav="previous"><svg class="icon icon--arrow-nav-prev"><use xlink:href="#icon-arrow-nav"></use></svg></button>
+				<button class="scene-nav scene-nav--prev" data-anav="previous"><svg class="icon icon--arrow-nav-prev"><use xlink:href="#icon-arrow-nav"></use></svg></button>
 				<button class="scene-nav scene-nav--next" data-nav="next"><svg class="icon icon--arrow-nav-next"><use xlink:href="#icon-arrow-nav"></use></svg></button>
 			</div>
 		</main>
@@ -92,7 +92,11 @@
 				displacementImage: 'img/dmaps/2048x2048/clouds.jpg',
 				autoPlay: true,
 				autoPlaySpeed: [10, 3],
-				displaceScale: [200, 70]
+				displaceScale: [200, 70],
+				displaceAutoFit: true,
+				displacementCenter: true,
+				interactive: true,
+				interactionEvent: 'click', // 'click', 'hover', 'both' 
 			});
 		</script>
 	</body>

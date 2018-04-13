@@ -102,7 +102,7 @@
 
 			var initCanvasSlideshow = new CanvasSlideshow({
 				sprites: spriteImagesSrc,
-				displacementImage: 'img/dmaps/512x512/crystalize.jpg',
+				displacementImage: 'img/dmaps/512x512/clouds.jpg',
 				autoPlay: false,
 				displaceScale: [300, 300],
 				fullScreen: true,
@@ -110,7 +110,11 @@
 				texts: texts,
 				textColor: "#224d94",
 				centerSprites: true,
-				wacky: true
+				wacky: true,
+				interactive: true,
+				interactionEvent: 'click', // 'click', 'hover', 'both' 
+				displaceAutoFit: false,
+				dispatchPointerOver: true // restarts pointerover event after click 
 			});
 		</script>
 	</body>
